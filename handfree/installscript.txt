@@ -1,1 +1,4 @@
 sudo apt install build-essential dkms -y
+
+USBIPServer
+sudo apt install linux-tools-5.4.0-45-generic -y
