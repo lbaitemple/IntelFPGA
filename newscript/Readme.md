@@ -18,5 +18,6 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6810", MODE="0666"
 ```
 Run the following command
 ```
+sudo rm /usr/local/bin/device_log.txt
 sudo bash ./jtag_server_startup.sh 
 ```
